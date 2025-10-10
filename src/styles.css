@@ -1,0 +1,46 @@
+:root{
+  --max-width: 900px;
+}
+body{font-family: Inter, ui-sans-serif, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial; margin:0; padding:24px}
+.container{max-width:var(--max-width); margin:0 auto}
+.nav{display:flex; gap:12px; margin-bottom:16px}
+.error{color:#c62828}
+
+/* Dashboard styles (from attachment) */
+.header-bar{
+  background: #1976d2; /* primary blue */
+  color: white;
+  padding: 12px 24px;
+  border-radius: 6px;
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+.header-bar .brand{font-weight:700; font-size:18px}
+.header-bar .nav-actions{margin-left:auto; display:flex; gap:12px}
+
+.metrics{display:flex; gap:16px; margin-top:18px}
+.metric-card{flex:1; background: linear-gradient(180deg,#4fc3f7,#0288d1); color:white; padding:18px; border-radius:8px; box-shadow:0 4px 10px rgba(2,24,39,0.08)}
+.metric-card h3{margin:0; font-size:28px}
+.metric-card p{opacity:0.95; margin:6px 0 0}
+
+.controls{margin-top:16px; display:flex; gap:12px}
+.btn{background:#0288d1; color:white; padding:8px 12px; border-radius:6px; text-decoration:none}
+.btn.secondary{background:#e3f2fd; color:#0277bd}
+
+.recent{margin-top:22px}
+.recent table{width:100%; border-collapse:collapse; background:white}
+.recent th, .recent td{padding:10px 12px; text-align:left; border-bottom:1px solid #eee}
+
+.dashboard-wrapper{max-width:1100px; margin:0 auto}
+
+
+.dashboard-header{display:flex; justify-content:space-between; align-items:center; margin-bottom:12px}
+.metrics{display:flex; gap:12px}
+.metric-card{flex:1; background:#f0f7ff; padding:16px; border-radius:8px; text-align:center}
+.metric-value{font-size:28px; font-weight:700}
+.metric-label{opacity:0.8}
+.recent-submissions{margin-top:20px}
+.submissions-table{width:100%; border-collapse:collapse}
+.submissions-table th, .submissions-table td{border-bottom:1px solid #eee; padding:8px; text-align:left}
+
